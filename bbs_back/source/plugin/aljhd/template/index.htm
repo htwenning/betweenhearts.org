@@ -1,0 +1,136 @@
+{template common/header}
+<div class="wp" id="wp">
+<link href="./source/plugin/aljhd/css/style.css" type="text/css" rel="stylesheet">
+<div class="w980px mar10 bg1">
+<div class="pad10">
+    	<div class="hauto">
+            <div class="w56px l fon_14 lh24"><b>{lang aljhd:hd11}</b></div>
+            <div class="hd_dhr r">
+                <ul>
+                	<li <!--{if empty($_GET['type'])}-->class="hightshow"<!--{/if}-->><a href="plugin.php?id=aljhd&status={$_GET['status']}&ym={$_GET['ym']}">{lang aljhd:hd12}</a></li>
+                            			<!--{loop $typelist $type}-->
+        			            		<li <!--{if $_GET['type']==$type['type']}-->class="hightshow"<!--{/if}-->><a href="plugin.php?id=aljhd&type={$type['type']}&status={$_GET['status']}&ym={$_GET['ym']}">{$types[$type['type']]}({$type['num']})</a></li>
+										 <!--{/loop}-->
+        			                </ul>
+            </div>
+    	<div class="clear"></div>
+        </div>
+        <div id="searchtime" class="hauto">
+            <div class="w56px l fon_14 lh24"><b>{lang aljhd:hd13}</b><br></div>
+            <div class="hd_dhr r">
+                <ul>
+                	<li <!--{if empty($_GET['ym'])}-->class="hightshow"<!--{/if}-->><a href="plugin.php?id=aljhd&type={$_GET['type']}&status={$_GET['status']}">{lang aljhd:hd14}</a></li>
+					<!--{loop $ymlist $ym}-->
+                               	    <li <!--{if $_GET['ym']==$ym['ym']}-->class="hightshow"<!--{/if}-->><a href="plugin.php?id=aljhd&type={$_GET['type']}&status={$_GET['status']}&ym={$ym['ym']}">$ym['ym']($ym['num'])</a></li>     
+                     <!--{/loop}-->
+                                 	  
+                                </ul>
+            </div>
+    	<div class="clear"></div>
+        </div>
+        <div class="hauto">
+            <div class="w56px l fon_14 lh24"><b>{lang aljhd:hd15}</b></div>
+            <div class="hd_dhr r">
+                <ul>
+                 <li <!--{if empty($_GET['status'])}-->class="hightshow"<!--{/if}-->><a href="plugin.php?id=aljhd&type={$_GET['type']}&ym={$_GET['ym']}">{lang aljhd:hd16}</a></li>
+                 <li <!--{if $_GET['status']==1}-->class="hightshow"<!--{/if}-->><a href="plugin.php?id=aljhd&type={$_GET['type']}&status=1&ym={$_GET['ym']}">{lang aljhd:hd17}</a></li>
+                 <li <!--{if $_GET['status']==2}-->class="hightshow"<!--{/if}-->><a href="plugin.php?id=aljhd&type={$_GET['type']}&status=2&ym={$_GET['ym']}">{lang aljhd:hd18}</a></li>
+                </ul>
+            </div>
+    	<div class="clear"></div>
+        </div>
+    <div class="clear"></div>
+    </div>
+<div class="clear"></div>
+</div>
+
+
+<div style="margin-bottom:8px;" class="w980px mar bg1">
+<div class="pad10 lh24">
+    	<div class="l fon_14">{lang aljhd:hd19}</div>
+<div class="l jctj white">
+        	<div class="jctjall l">
+            	 <div class="jctjlr l"><img src="source/plugin/aljhd/images/l.jpg"></div>
+           		 <div class="jctjm l"><!--{if $_GET['status']==1}-->{lang aljhd:hd20}<!--{elseif $_GET['status']==2}-->{lang aljhd:hd21}<!--{else}-->{lang aljhd:hd22}<!--{/if}--></div>
+           		 <div class="jctjlr l"><img src="source/plugin/aljhd/images/r.jpg"></div>
+            <div class="clear"></div>
+            </div>
+			<!--{if $_GET['type']}-->
+        	<div class="jctjall l">
+            	 <div class="jctjlr l"><img src="source/plugin/aljhd/images/l.jpg"></div>
+           		 <div class="jctjm l">{$types[$_GET['type']]} <a href="plugin.php?id=aljhd&ym={$_GET['ym']}&status={$_GET['status']}"><img align="absmiddle" src="source/plugin/aljhd/images/shutdown_search.gif"></a></div>
+           		 <div class="jctjlr l"><img src="source/plugin/aljhd/images/r.jpg"></div>
+            <div class="clear"></div>
+            </div>
+			<!--{/if}-->
+			<!--{if $_GET['ym']}-->
+        	<div class="jctjall l">
+            	 <div class="jctjlr l"><img src="source/plugin/aljhd/images/l.jpg"></div>
+           		 <div class="jctjm l">$_GET['ym'] <a href="plugin.php?id=aljhd&type={$_GET['type']}&status={$_GET['status']}"><img align="absmiddle" src="source/plugin/aljhd/images/shutdown_search.gif"></a></div>
+           		 <div class="jctjlr l"><img src="source/plugin/aljhd/images/r.jpg"></div>
+            <div class="clear"></div>
+            </div>
+			<!--{/if}-->
+			
+        <div class="clear"></div>
+        </div>
+        <div class="r"><img width="22" height="19" align="absmiddle" src="source/plugin/aljhd/images/hd_09.jpg"> <a href="plugin.php?id=aljhd">{lang aljhd:hd23}</a></div>
+    
+    <div class="clear"></div>
+    </div>
+<div class="clear"></div>
+</div>
+{if in_array($_G['groupid'],$yhz)}<div class="jctjlr l" style="margin-left:5px;"><img src="./source/plugin/aljhd/images/l.jpg"></div><div class="jctjm l style="float:left"><a href="plugin.php?id=aljhd&act=add" onclick="showWindow('aljhd',this.href)"><font color="red" size="4">{lang aljhd:hd24}</font></a></div> <div class="jctjlr l"><img src="./source/plugin/aljhd/images/r.jpg"></div>{/if}
+$paging<div class="clear"></div>
+<div class="w980px mar10 bg1">
+<div class="padlr10">
+<!--{loop $hdlist $hd}-->
+        <div class="hauto activity_list">
+          <div class="hdconl_l l">
+                    <div class="w90px l mar">
+                      <div class="hdconl zt">
+                        <div class="hdconl_left l"><b>{eval echo gmdate('d',$hd['endtime']+8*3600)}</b></div>
+                        <div class="fon_14 l w90px pl2px mar_left18">{eval echo gmdate('Y-m',$hd['endtime']+8*3600)}</div>
+                      </div>
+      				</div>
+                	<div class="jctjall01 l white">
+                         <div class="jctjlr l"><img src="./source/plugin/aljhd/images/l.jpg"></div>
+                         <div class="jctjm l"><a href="plugin.php?id=aljhd:aljhd&g_id=26">{$types[$hd['type']]}</a></div>
+                         <div class="jctjlr l"><img src="./source/plugin/aljhd/images/r.jpg"></div>
+                    <div class="clear"></div>
+                    </div>
+
+            <div class="clear"></div>
+            </div>
+            
+          	<div class="hdconl_rall r">
+            	<div class="w22px l"><img width="22" height="24" src="./source/plugin/aljhd/images/hd_14.jpg"></div>
+            	<div class="hdconl_r r">
+            	<div class="hdc_rl l"><a href="{$hd['url']}" target="_blank"><img width="295" height="190" alt="{$hd['title']}" src="{$hd['logo']}"></a><div class="hdc_rljb">{if strtotime(gmdate('Ymd',TIMESTAMP+8*3600))>=$hd['starttime']}<img src="./source/plugin/aljhd/images/{if strtotime(gmdate('Ymd',TIMESTAMP+8*3600))>$hd['endtime']}jb_lte.png{elseif strtotime(gmdate('Ymd',TIMESTAMP+8*3600))<=$hd['endtime']&&strtotime(gmdate('Ymd',TIMESTAMP+8*3600))>=$hd['starttime']}jb_lt.png{/if}">{/if}</div></div>
+                <div class="w494px r">
+                	<div class="hsc_rtop zt fon_18"><a href="{$hd['url']}" target="_blank" class="black">{$hd['title']}</a><!--{if $_G['groupid']==1}-->(<a href="plugin.php?id=aljhd&act=edit&hid={$hd['id']}" onclick="showWindow('edithd',this.href)"><font color="#FF0000">{lang aljhd:hd26}</font></a>&nbsp;<a href="plugin.php?id=aljhd&act=delete&hid={$hd['id']}"><font color="#FF0000">{lang aljhd:hd32}</font></a>)<!--{/if}--></div>
+                    <div class="lh24 activity_con">
+<span class="red"><b>{lang aljhd:hd25}</b></span>{eval echo gmdate('Y-m-d',$hd['starttime']+8*3600)} {lang aljhd:hd31} {eval echo gmdate('Y-m-d',$hd['endtime']+8*3600)}<br>
+<input type="hidden" value="2013-10-12">
+<span class="red"><b>{lang aljhd:hd27}</b></span>{$hd['desc']}                    </div>
+              		<div class="hsc_rtopend">
+                    	<div class="hsc_rtopendl l">{lang aljhd:hd28} {if intval(($hd['endtime']-TIMESTAMP)/86400)>=0} {eval echo intval(($hd['endtime']-TIMESTAMP)/86400)+1}{else}-{/if} {lang aljhd:hd29}</div>
+                    	<div class="hsc_rtopendr r"><a href="{$hd['url']}" class="hsc_rtopendr zt fon_18 white" target="_blank"><span>{lang aljhd:hd30}</span></a></div>
+                    <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        	</div>
+        
+        <div class="clear"></div>
+        </div>
+        <!--{/loop}-->
+        <div class="clear"></div>
+    </div>
+<div class="clear"></div>
+</div>
+<div style="margin-bottom:8px;">
+$paging</div>
+<div class="clear"></div>	</div>
+
+{template common/footer}

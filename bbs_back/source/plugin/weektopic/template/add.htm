@@ -1,0 +1,57 @@
+{template common/header_ajax}
+<h3 class="flb">
+	<em>{lang weektopic:bc16}</em>
+		<span><a href="javascript:;" class="flbc" onclick="hideWindow('$_GET['handlekey']');" title="{lang close}">{lang close}</a></span>
+	
+</h3>
+<form id="qiandao" method="post" action="plugin.php?id=weektopic&action=showwindow">
+<input type="hidden" name="formhash" value="{FORMHASH}"/>
+
+		<style>
+		
+.m_c .c {
+    padding: 0 10px 10px;
+}
+		</style>
+		<div class="c">
+        
+        
+        	<table cellspacing="0" cellpadding="0" border="0">
+                
+  				<tbody>
+				<tr><td colspan="2"><div style="border:1px dashed #f60;background-color:#FFC" class="notice">{lang weektopic:bc17}</div></td></tr>
+				<tr>
+    				<td width="70" height="40">{lang weektopic:bc18}</td>
+    				<td colspan="4"><input type="text" maxlength="20" style="width:350px;" class="px" name="tid"></td>
+                </tr>
+				<tr>
+    				<td width="70" height="40">{lang weektopic:bc19}</td>
+    				<td colspan="4"><input type="text" maxlength="20" style="width:350px;" class="px" name="name"></td>
+                </tr>
+                <tr>
+    				<td width="70" height="40">{lang weektopic:bc20}</td>
+    				<td colspan="4"><input type="text"  style="width:350px;" class="px" name="url"></td>
+                </tr>             
+            </tbody></table>		
+
+		<script>
+		function Icon_selected(sId) {
+			var oImg = document.getElementsByTagName('li');
+			for (var i = 0; i < oImg.length; i++) {
+			  if (oImg[i].id == sId) {
+				var selectname = document.getElementById(oImg[i].id + "_s");
+				selectname.checked = true;
+				oImg[i].style. background = '#EFEFEF';
+			  } else {
+				oImg[i].style. background = '';
+			  }
+			}
+		}
+		</script>
+	
+</div>
+<p class="o pns">
+	<button type="submit" name="submit" class="pn pnc" value="true"><strong>{lang weektopic:bc21}</strong></button>
+</p>
+</form>
+{template common/footer_ajax}

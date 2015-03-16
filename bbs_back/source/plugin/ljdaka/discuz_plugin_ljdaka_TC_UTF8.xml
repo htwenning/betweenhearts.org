@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5,X3,X3.1]]></item>
+	<item id="Time"><![CDATA[2013-12-03 01:32]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[【亮劍】打卡簽到]]></item>
+			<item id="identifier"><![CDATA[ljdaka]]></item>
+			<item id="description"><![CDATA[最專業的每日打卡插件！]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[ljdaka/]]></item>
+			<item id="copyright"><![CDATA[亮劍SEO社區（http://www.seoeye.cn）]]></item>
+			<item id="version"><![CDATA[2.4.3]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[sj]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[daka]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[app]]></item>
+					<item id="menu"><![CDATA[亮劍應用中心]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[是否強制彈窗提示打卡]]></item>
+				<item id="description"><![CDATA[選是用戶登錄狀態下沒有簽到會一直彈窗提示用戶打卡簽到]]></item>
+				<item id="variable"><![CDATA[isqz]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[強制彈窗提示內容]]></item>
+				<item id="description"><![CDATA[提示用戶打卡內容，顯示在提示彈窗內]]></item>
+				<item id="variable"><![CDATA[qzmes]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[尊敬的會員您今天還未打卡簽到！請點擊下方打卡按鈕打卡！可以獲取豐富的金幣哦！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[獎勵積分類型]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[leixing]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[獎勵積分]]></item>
+				<item id="description"><![CDATA[公式（連續簽到天數*倍數+獎勵積分）]]></item>
+				<item id="variable"><![CDATA[jljifen]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[連續打卡獎勵倍數]]></item>
+				<item id="description"><![CDATA[公式（連續簽到天數*倍數+獎勵積分）]]></item>
+				<item id="variable"><![CDATA[beishu]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[提示窗口圖片地址]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[dizhi]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[source/plugin/ljdaka/images/info.gif]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[鏈接URL]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[url]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[http://www.seoeye.cn/thread-1846-1-1.html]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[鏈接文字]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[wenzi]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[【亮劍】打卡BUG反饋帖]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[顯示位置]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[weizhi]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[6]]></item>
+				<item id="extra"><![CDATA[1 = 可選位置1
+2 = 可選位置2
+3 = 可選位置3
+4 = 可選位置4
+5 = 可選位置5
+6= 可選位置6]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[積分上限周期]]></item>
+				<item id="description"><![CDATA[選擇1,2,3,4周天數累加清0從來.留空表示不限制！]]></item>
+				<item id="variable"><![CDATA[zhouqi]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[7]]></item>
+				<item id="extra"><![CDATA[0 = 
+7 =一周 
+14 =二周
+21= 三周
+30 =一月]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[打卡後是否顯示]]></item>
+				<item id="description"><![CDATA[打卡後是否還顯示打卡簽到。是︰顯示！否︰不顯示]]></item>
+				<item id="variable"><![CDATA[xianshi]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[公告]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[gg]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[歡迎廣大網友堅持簽到！<br>
+<span style="color:red">累計簽到天數越多，獎勵越多.</span>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="12">
+				<item id="displayorder"><![CDATA[12]]></item>
+				<item id="title"><![CDATA[提示信息]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[tips]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[歡迎廣大網友堅持簽到！]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="13">
+				<item id="displayorder"><![CDATA[20]]></item>
+				<item id="title"><![CDATA[版權信息]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[banquan]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<div class="bm_h">
+<h2>版權信息</h2>
+</div>
+<div class="bm_c">
+<ul>
+                     <li>作者︰余新啟</li>
+                    <li>版權︰<a target="_blank" href="http://www.seoeye.cn/">亮劍seo論壇</a></li>
+               </ul>
+</div>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="14">
+				<item id="displayorder"><![CDATA[21]]></item>
+				<item id="title"><![CDATA[手機版顯示位置]]></item>
+				<item id="description"><![CDATA[手機版打卡簽到顯示位置]]></item>
+				<item id="variable"><![CDATA[sjweizhi]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[1 = 顯示在頭部
+2 = 顯示在尾部]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="time"><![CDATA[Y年m月d日打卡簽到記錄貼]]></item>
+				<item id="daka1"><![CDATA[打卡簽到]]></item>
+				<item id="daka2"><![CDATA[提示信息]]></item>
+				<item id="daka3"><![CDATA[您已打卡,請明日再來！]]></item>
+				<item id="daka4"><![CDATA[簽到數據庫表格未創建成功\]]></item>
+				<item id="daka5"><![CDATA[請參照表格未創建成功\的解決方案]]></item>
+				<item id="daka6"><![CDATA[我已經累計打卡]]></item>
+				<item id="daka7"><![CDATA[天啦]]></item>
+				<item id="daka8"><![CDATA[明日再打卡我將獲得]]></item>
+				<item id="daka9"><![CDATA[確定]]></item>
+				<item id="daka10"><![CDATA[獲得]]></item>
+				<item id="daka11"><![CDATA[打卡排行榜]]></item>
+				<item id="daka12"><![CDATA[排名]]></item>
+				<item id="daka13"><![CDATA[用戶]]></item>
+				<item id="daka14"><![CDATA[累計打卡天數]]></item>
+				<item id="daka15"><![CDATA[下次打卡獎勵]]></item>
+				<item id="daka16"><![CDATA[公告]]></item>
+				<item id="daka17"><![CDATA[個人信息]]></item>
+				<item id="daka18"><![CDATA[請先登錄！]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="daka1"><![CDATA[打卡簽到]]></item>
+				<item id="daka2"><![CDATA[提示信息]]></item>
+				<item id="daka3"><![CDATA[您已打卡,請明日再來！]]></item>
+				<item id="daka4"><![CDATA[簽到數據庫表格未創建成功\]]></item>
+				<item id="daka5"><![CDATA[請參照表格未創建成功\的解決方案]]></item>
+				<item id="daka6"><![CDATA[您已累計打卡]]></item>
+				<item id="daka7"><![CDATA[天]]></item>
+				<item id="daka8"><![CDATA[預計明日打卡您將獲得]]></item>
+				<item id="daka9"><![CDATA[確定]]></item>
+				<item id="daka10"><![CDATA[獲得]]></item>
+				<item id="daka11"><![CDATA[打卡排行榜]]></item>
+				<item id="daka12"><![CDATA[排名]]></item>
+				<item id="daka13"><![CDATA[用戶]]></item>
+				<item id="daka14"><![CDATA[累計打卡天數]]></item>
+				<item id="daka15"><![CDATA[下次打卡獎勵]]></item>
+				<item id="daka16"><![CDATA[公告]]></item>
+				<item id="daka17"><![CDATA[個人信息]]></item>
+				<item id="daka18"><![CDATA[我要打卡]]></item>
+				<item id="daka19"><![CDATA[連續打卡天數]]></item>
+				<item id="daka20"><![CDATA[打卡總獎勵]]></item>
+				<item id="daka21"><![CDATA[今日打卡]]></item>
+				<item id="daka22"><![CDATA[已打卡]]></item>
+				<item id="daka23"><![CDATA[未打卡]]></item>
+				<item id="daka24"><![CDATA[排名︰]]></item>
+				<item id="daka25"><![CDATA[連續打卡︰]]></item>
+				<item id="daka26"><![CDATA[累計打卡︰]]></item>
+				<item id="daka27"><![CDATA[累計獎勵︰]]></item>
+				<item id="daka28"><![CDATA[下次打卡獎勵︰]]></item>
+				<item id="daka29"><![CDATA[打卡獎勵周期︰]]></item>
+				<item id="daka30"><![CDATA[天清0,重新計算！]]></item>
+				<item id="daka31"><![CDATA[不限制！]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	</item>
+</root>

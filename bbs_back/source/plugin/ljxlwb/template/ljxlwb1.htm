@@ -1,0 +1,69 @@
+<!--{if !$che1['sinauid']}-->
+<div class="mn">
+<div class="bm bw0">
+<h1 class="mt">新浪微博绑定</h1>
+<!--don't close the div here--><div class="mtw bm2 cl">
+<div style="padding-top: 70px;" class="bm2_b bw0 hm">
+<a href="$_G['siteurl']plugin.php?id=ljxlwb:ljxlwb&opp=in"><img src="source/plugin/ljxlwb/img/weibo_bind.png"></a>
+<p class="mtn xg1">点击按钮，立刻绑定新浪微博帐号</p>
+</div>
+<div class="bm2_b bm2_b_y bw0">
+<dl class="xld">
+<h2 class="xi1 xs2">使用新浪微博帐号绑定本站，您可以...</h2>
+<dt>用新浪微博帐号轻松登录</dt>
+<dd class="xg1">无需记住本站的帐号和密码，随时使用新浪微博帐号密码轻松登录</dd>
+<dt>发表主题同时推送到新浪微博空间和腾讯微博</dt>
+<dd class="xg1">将您的论坛主题推送到新浪微博，让好友全方面了解您</dd>
+<dt>把本站精彩内容分享到新浪微博</dt>
+<dd class="xg1">每一个精彩内容绝不放过，简单快捷的将论坛主题分享给好友和听众</dd>
+</dl>
+</div>
+</div>
+</div></div>
+<!--{else}-->
+
+<h1 class="mt">新浪微博绑定</h1>
+<!--don't close the div here--><p class="pbm bbda xi1">您已将本站帐号 <strong>$_G['member']['username']</strong> 与新浪微博绑定</p>
+<form class="mbw bbda" autocomplete="off" method="post" action="home.php?mod=spacecp&ac=plugin&id=ljxlwb:ljxlwb">
+<input type="hidden" value="{FORMHASH}" name="formhash">
+<table cellspacing="0" cellpadding="0" class="tfm">
+<tbody><tr>
+<th>绑定设置</th>
+<td>
+<label for="ispublishfeed"><input type="checkbox" <!--{if $ispublishfeed}-->checked="checked"<!--{/if}--> value="1" class="pc" name="ispublishfeed" id="ispublishfeed"> 发表主题时默认发送动态到新浪微博</label>
+</td>
+</tr>
+<tr>
+<th></th>
+<td>
+<label for="ispublisht"><input type="checkbox" <!--{if $ispublisht}-->checked="checked"<!--{/if}--> value="1" class="pc" name="ispublisht" id="ispublisht"> 回复时默认转播到新浪微博</label>
+</td>
+</tr>
+<tr>
+<th></th>
+<td>
+<input type="hidden" value="config" name="opp">
+<button class="pn pnc" value="yes" name="connectsubmit" type="submit"><strong>保存设置</strong></button>
+</td>
+</tr>
+</tbody></table>
+</form>
+
+<h2>
+<a class="xi2" onclick="display('unbind');" href="javascript:;">解除已绑定帐号？</a>
+</h2>
+
+<div style="display:none;" id="unbind">
+<form autocomplete="off" method="post" action="home.php?mod=spacecp&ac=plugin&id=ljxlwb:ljxlwb">
+<input type="hidden" value="{FORMHASH}" name="formhash">
+<p class="mtm mbm">
+您确认要解除与本站帐号的绑定关系？
+</p>
+<div>
+<input type="hidden" value="unbind" name="opp">
+<button class="pn pnc" value="yes" name="connectsubmit1" type="submit"><strong>确认解除</strong></button>
+</div>
+</form>
+</div>
+
+<!--{/if}-->

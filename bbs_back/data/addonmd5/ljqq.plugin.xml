@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[ljqq.plugin]]></item>
+	<item id="RevisionID"><![CDATA[21610]]></item>
+	<item id="SN"><![CDATA[201403312222gPJ1qid2]]></item>
+	<item id="RevisionDateline"><![CDATA[1377597601]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_ljqq_SC_UTF8.xml"><![CDATA[14d33911a9fa13db632efa5373b9d1ca]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/images/img3-5-btn2.gif"><![CDATA[c7ada7be079974a25f3032dfff4e4e1d]]></item>
+		<item id="/images/qqq.gif"><![CDATA[16ad615dafcd132484a29cb0d2fbe71e]]></item>
+		<item id="/images/img3-5_2.png"><![CDATA[db0171b9ea88b316cb8eaf74a1f714f8]]></item>
+		<item id="/images/logo.png"><![CDATA[c0b1c9a7fb0c34f1dab0cb50e7985249]]></item>
+		<item id="/images/img3-5-btn1.gif"><![CDATA[14f45e9355f718bc08476e825cdd5a3b]]></item>
+		<item id="/images/img3-5_3.png"><![CDATA[5462cb4f183aa714f1b21c4391485391]]></item>
+		<item id="/images/img3-5_4.png"><![CDATA[7e025a3ee1ff4875602aac1f79c55c5f]]></item>
+		<item id="/images/kefu_head.gif"><![CDATA[e3fc58cbdbe5d6ec4ba75d5fb5d1c958]]></item>
+		<item id="/images/img3-5_1.png"><![CDATA[61a69749092c3f1c15fbd8e4f0302811]]></item>
+		<item id="/discuz_plugin_ljqq_SC_GBK.xml"><![CDATA[e70a2ab8d3d48d3b67f44825b945ddfb]]></item>
+		<item id="/ljqq.class.php"><![CDATA[4f8cff4a17b234df5a06e8dec201b6f7]]></item>
+		<item id="/discuz_plugin_ljqq_TC_UTF8.xml"><![CDATA[0a935ba256d6603155b65493803558c9]]></item>
+		<item id="/template/qq.htm"><![CDATA[353d3b83c5826f898758d1e6749dde9a]]></item>
+		<item id="/css/css.css"><![CDATA[324f6eb3abbf224a1e5eb874bcc2e809]]></item>
+		<item id="/discuz_plugin_ljqq_TC_BIG5.xml"><![CDATA[8b810808378adc03f184f146174ad77e]]></item>
+	</item>
+</root>

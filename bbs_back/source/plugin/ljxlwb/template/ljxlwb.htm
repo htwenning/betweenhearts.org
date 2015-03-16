@@ -1,0 +1,71 @@
+<!--{if !$che1['sinauid']}-->
+<div class="mn">
+<div class="bm bw0">
+<h1 class="mt">{lang ljxlwb:tem_sinabind}</h1>
+<!--don't close the div here--><div class="mtw bm2 cl">
+<div style="padding-top: 70px;" class="bm2_b bw0 hm">
+<a href="$_G['siteurl']plugin.php?id=ljxlwb:ljxlwb&opp=in"><img src="source/plugin/ljxlwb/img/weibo_bind.png"></a>
+<p class="mtn xg1">{lang ljxlwb:tem_sinabind1}</p>
+</div>
+<div class="bm2_b bm2_b_y bw0">
+<dl class="xld">
+<h2 class="xi1 xs2">{lang ljxlwb:tem_sinabind2}</h2>
+<dt>{lang ljxlwb:tem_sinabind3}</dt>
+<dd class="xg1">{lang ljxlwb:tem_sinabind4}</dd>
+<dt>{lang ljxlwb:tem_sinabind5}</dt>
+<dd class="xg1">{lang ljxlwb:tem_sinabind6}</dd>
+<dt>{lang ljxlwb:tem_sinabind7}</dt>
+<dd class="xg1">{lang ljxlwb:tem_sinabind8}</dd>
+</dl>
+</div>
+</div>
+</div></div>
+<!--{else}-->
+
+<h1 class="mt">{lang ljxlwb:tem_sinabind}</h1>
+<!--don't close the div here--><p class="pbm bbda xi1">{lang ljxlwb:tem_sinabind9}&nbsp;<strong>$_G['member']['username']</strong>&nbsp;{lang ljxlwb:tem_sinabind10}&nbsp;<strong>$sinausername</strong>&nbsp;{lang ljxlwb:tem_sinabind18}</p>
+<form class="mbw bbda" autocomplete="off" method="post" action="home.php?mod=spacecp&ac=plugin&id=ljxlwb:ljxlwb">
+<input type="hidden" value="{FORMHASH}" name="formhash">
+<table cellspacing="0" cellpadding="0" class="tfm">
+<tbody><tr>
+<th>{lang ljxlwb:tem_sinabind11}</th>
+<td>
+<label for="ispublishfeed"><input type="checkbox" <!--{if $ispublishfeed}-->checked="checked"<!--{/if}--> value="1" class="pc" name="ispublishfeed" id="ispublishfeed"> {lang ljxlwb:tem_sinabind12}</label>
+</td>
+</tr>
+
+<tr>
+<th></th>
+<td>
+<label for="ispublisht"><input type="checkbox" <!--{if $ispublisht || $isreply}-->checked="checked"<!--{/if}--> value="1" class="pc" name="ispublisht" id="ispublisht"> {lang ljxlwb:tem_sinabind13}</label>
+</td>
+</tr>
+
+<tr>
+<th></th>
+<td>
+<input type="hidden" value="config" name="opp">
+<button class="pn pnc" value="yes" name="connectsubmit" type="submit"><strong>{lang ljxlwb:tem_sinabind14}</strong></button>
+</td>
+</tr>
+</tbody></table>
+</form>
+
+<h2>
+<a class="xi2" onclick="display('unbind');" href="javascript:;">{lang ljxlwb:tem_sinabind15}</a>
+</h2>
+
+<div style="display:none;" id="unbind">
+<form autocomplete="off" method="post" action="home.php?mod=spacecp&ac=plugin&id=ljxlwb:ljxlwb">
+<input type="hidden" value="{FORMHASH}" name="formhash">
+<p class="mtm mbm">
+{lang ljxlwb:tem_sinabind16}
+</p>
+<div>
+<input type="hidden" value="unbind" name="opp">
+<button class="pn pnc" value="yes" name="connectsubmit1" type="submit"><strong>{lang ljxlwb:tem_sinabind17}</strong></button>
+</div>
+</form>
+</div>
+
+<!--{/if}-->

@@ -1,0 +1,55 @@
+{template common/header_ajax}
+<script src="static/js/calendar.js" type="text/javascript" reload="1"></script>
+<h3 class="flb">
+	<em>{lang aljhd:hd1}</em>
+		<span><a href="javascript:;" class="flbc" onclick="hideWindow('$_GET['handlekey']');" title="{lang close}">{lang close}</a></span>
+	
+</h3>
+<form id="addbc" method="post" action="plugin.php?id=aljhd&act=add" enctype="multipart/form-data">
+<input name="formhash" type="hidden" value="{FORMHASH}" />
+		<div class="c">
+        	<table cellspacing="0" cellpadding="0" border="0">
+                
+  				<tbody>
+				<tr>
+    				<td width="80" height="30"><span style="color:red;">*</span>{lang aljhd:hd3}</td>
+    				<td colspan="4"><input type="text" name="title" class="px" style="width:350px;" ></td>
+                </tr>
+				<tr>
+						<td width="80" height="30"><span style="color:red;">*</span>{lang aljhd:hd4}</td>
+    				<td colspan="4">
+						<select name="type" style="width:150px;">
+							<!--{loop $types $typeid $type}-->
+							<option value="$typeid">$type</option>
+							<!--{/loop}-->
+						</select>
+					</td>
+				</tr>
+				<tr>
+    				<td width="80" height="30"><span style="color:red;">*</span>{lang aljhd:hd5}</td>
+    				<td colspan="4"><input type="text" name="url" class="px" style="width:350px;" ></td>
+                </tr>
+				<tr>
+    				<td width="80" height="30"><span style="color:red;">*</span>{lang aljhd:hd6}</td>
+    				<td colspan="4"><input type="text"  onclick="showcalendar(event,this,false)" name="starttime" class="px" style="width:200px;" >-<input type="text" name="endtime" class="px" style="width:200px;"  onclick="showcalendar(event,this,false)"></td>
+                </tr> 
+				<tr>
+    				<td width="80" height="30"><span style="color:red;">*</span>{lang aljhd:hd7}</td>
+    				<td colspan="4"><input type="file" name="logo"></td>
+                </tr>
+				<tr>
+    				<td width="80" height="30"><span style="color:red;">*</span>{lang aljhd:hd8}</td>
+    				<td colspan="4"><input type="text" name="place" class="px" style="width:350px;" ></td>
+                </tr>
+				<tr>
+    				<td width="80" height="30"><span style="color:red;">*</span>{lang aljhd:hd9}</td>
+    				<td><textarea name="desc" rows="5" cols="80"></textarea></td>
+                </tr>
+            </tbody></table>
+	
+</div>
+<p class="o pns">
+	<button type="submit" name="submit" value="1" class="pn pnc"><strong>{lang aljhd:hd10}</strong></button>
+</p>
+</form>
+{template common/footer_ajax}

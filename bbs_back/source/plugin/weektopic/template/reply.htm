@@ -1,0 +1,53 @@
+{template common/header_ajax}
+<h3 class="flb">
+	<em>{lang weektopic:bc1}</em>
+		<span><a href="javascript:;" class="flbc" onclick="hideWindow('$_GET['handlekey']');" title="{lang close}">{lang close}</a></span>
+</h3>
+<form id="qiandao" method="post" action="plugin.php?id=weektopic&action=reply&tid={$_GET['tid']}">
+<input type="hidden" name="formhash" value="{FORMHASH}"/>
+<style>
+		
+.m_c .c {
+    padding: 0 10px 10px;
+}
+</style>
+<div class="c"> 
+<table cellspacing="0" cellpadding="0" border="0">          
+<tbody>
+<tr>
+<td width="100" height="40">{lang weektopic:bc2}</td>
+<td colspan="4" width="370"><div style="width:100%;" class="tedt">
+<div class="bar"><script type="text/javascript" src="static/js/seditor.js"></script>
+<div class="fpd">
+<a onclick="seditor_insertunit('reply', '[b]', '[/b]');doane(event);" class="fbld" title="{lang weektopic:bc3}" href="javascript:;">B</a>
+<a onclick="showColorBox(this.id, 2, 'reply');doane(event);" id="replyforecolor" class="fclr" title="{lang weektopic:bc4}" href="javascript:;" fwin="apply">Color</a>
+<a onclick="seditor_menu('reply', 'img');doane(event);" class="fmg" title="{lang weektopic:bc5}" href="javascript:;" id="replyimg" fwin="apply">Image</a>
+<a onclick="seditor_menu('reply', 'url');doane(event);" class="flnk" title="{lang weektopic:bc6}" href="javascript:;" id="replyurl" fwin="apply">Link</a>
+</div></div>
+<div style="background:#FFF;" class="area">
+<textarea style="background:#FFF;" id="replymessage" class="pt" name="intro" rows="5" fwin="apply"></textarea>  
+</div>
+</div>
+</td>
+</tr>
+</tbody></table>		
+<script>
+function Icon_selected(sId) {
+	var oImg = document.getElementsByTagName('li');
+	for (var i = 0; i < oImg.length; i++) {
+	  if (oImg[i].id == sId) {
+		var selectname = document.getElementById(oImg[i].id + "_s");
+		selectname.checked = true;
+		oImg[i].style. background = '#EFEFEF';
+	  } else {
+		oImg[i].style. background = '';
+	  }
+	}
+}
+</script>
+</div>
+<p class="o pns">
+	<button type="submit" name="submit" class="pn pnc" value="true"><strong>{lang weektopic:bc7}</strong></button>
+</p>
+</form>
+{template common/footer_ajax}

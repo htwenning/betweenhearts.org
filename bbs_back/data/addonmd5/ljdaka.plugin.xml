@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[ljdaka.plugin]]></item>
+	<item id="RevisionID"><![CDATA[10569]]></item>
+	<item id="SN"><![CDATA[2014033122XhqEsUH66j]]></item>
+	<item id="RevisionDateline"><![CDATA[1389679202]]></item>
+	<item id="Data">
+		<item id="/ljdaka.inc.php"><![CDATA[803cc60e2e26193574c8ecbdf2626938]]></item>
+		<item id="/uninstall.php"><![CDATA[c25555a91e601e8e2ed67f29e52b60cd]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/images/info.gif"><![CDATA[694bbdb5afd22a8cf1b329e42ec57735]]></item>
+		<item id="/discuz_plugin_ljdaka_SC_GBK.xml"><![CDATA[3248a77437cfb2469b6a597cb5624ac1]]></item>
+		<item id="/discuz_plugin_ljdaka_SC_UTF8.xml"><![CDATA[1a0ebd62b1571d01d0dc8e36172bea7a]]></item>
+		<item id="/discuz_plugin_ljdaka_TC_BIG5.xml"><![CDATA[62514e3117f55fd4fcf580c3eedb552f]]></item>
+		<item id="/install.php"><![CDATA[fb084486d7ad3b40ad2548bccc8a259e]]></item>
+		<item id="/template/qz.htm"><![CDATA[66e79f395c4980642a0bad41fe9412c3]]></item>
+		<item id="/template/msg.htm"><![CDATA[190abe39a654f32dc052397927edeb49]]></item>
+		<item id="/template/touch/msg.htm"><![CDATA[d5da01b98bbd7df999017a947e07fd97]]></item>
+		<item id="/template/touch/daka.htm"><![CDATA[b37daf07b9a2fa87783f9f0ab39a9210]]></item>
+		<item id="/template/touch/ranklist.htm"><![CDATA[d7b8f2968a99c244ae70716002214823]]></item>
+		<item id="/template/daka.htm"><![CDATA[7b800469ff3c6649cd34b260eb9d1f0f]]></item>
+		<item id="/template/mobile/msg.htm"><![CDATA[768cb19937246f0a010299ecfcd14d0b]]></item>
+		<item id="/template/mobile/daka.htm"><![CDATA[b37daf07b9a2fa87783f9f0ab39a9210]]></item>
+		<item id="/template/mobile/ranklist.htm"><![CDATA[d7b8f2968a99c244ae70716002214823]]></item>
+		<item id="/template/ranklist.htm"><![CDATA[3cbe915bd62e84e2cb66e9cabc4b2c9b]]></item>
+		<item id="/upgrade.php"><![CDATA[fb084486d7ad3b40ad2548bccc8a259e]]></item>
+		<item id="/daka.class.php"><![CDATA[551380900db83cc603ea44b58df2ff4f]]></item>
+		<item id="/table/table_plugin_daka.php"><![CDATA[f51eae99bb142cc3fae8ef825014cdb1]]></item>
+		<item id="/table/table_plugin_daka_user.php"><![CDATA[5f9ee3d00ef42c2992839bba1419ede3]]></item>
+		<item id="/daka.inc.php"><![CDATA[06f6913be114ee4d9143d0d1f3641b5f]]></item>
+		<item id="/discuz_plugin_ljdaka_TC_UTF8.xml"><![CDATA[5efb06b7a1c7a099fd7e7e5cc5c56f0a]]></item>
+		<item id="/ranklist.inc.php"><![CDATA[74ea1416f3b5f0d335b2f46669156e20]]></item>
+		<item id="/sj.class.php"><![CDATA[c3c5d5bf5287dc79bddb8ee33fd76169]]></item>
+	</item>
+</root>

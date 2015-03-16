@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2,X2.5,X3]]></item>
+	<item id="Time"><![CDATA[2013-08-26 16:12]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[【亮劍】QQ客服]]></item>
+			<item id="identifier"><![CDATA[ljqq]]></item>
+			<item id="description"><![CDATA[亮劍超級客服，包含QQ、旺旺、一鍵入群等眾多功能]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[ljqq/]]></item>
+			<item id="copyright"><![CDATA[亮劍Discuz]]></item>
+			<item id="version"><![CDATA[1.0.2]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[app]]></item>
+					<item id="menu"><![CDATA[亮劍應用中心]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[ljqq]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2,X2.5,X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[網站LOGO]]></item>
+				<item id="description"><![CDATA[為了排版請填寫一張大小不要超過110*60的網站LOGO圖片路徑。不填將不顯示]]></item>
+				<item id="variable"><![CDATA[logo]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[source/plugin/ljqq/images/logo.png]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[客服QQ]]></item>
+				<item id="description"><![CDATA[格式︰一行一個
+不填將不顯示。因排版限制能放多少自己把握]]></item>
+				<item id="variable"><![CDATA[qq]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<a href="tencent://message/?uin=578933760&amp;Site=http://www.isoseo.cn&amp;Menu=yes" class="l"><img src="http://wpa.qq.com/pa?p=1:578933760:4" title="">技術支持</a>
+<a href="tencent://message/?uin=190360183&amp;Site=http://www.isoseo.cn&amp;Menu=yes" class="l"><img src="http://wpa.qq.com/pa?p=1:190360183:4" title="">在線客服</a>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[客服旺旺]]></item>
+				<item id="description"><![CDATA[格式︰一行一個
+不填將不顯示。因排版限制能放多少自己把握]]></item>
+				<item id="variable"><![CDATA[ww]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[<a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&touid=lixinyuan19900320&siteid=cntaobao&status=1&charset=utf-8" ><img border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=lixinyuan19900320&site=cntaobao&s=1&charset=utf-8" alt="點擊這里給我發消息" /></a>
+<a target="_blank" href="http://www.taobao.com/webww/ww.php?ver=3&touid=lixinyuan19900320&siteid=cntaobao&status=1&charset=utf-8" ><img border="0" src="http://amos.alicdn.com/online.aw?v=2&uid=lixinyuan19900320&site=cntaobao&s=1&charset=utf-8" alt="點擊這里給我發消息" /></a>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[qq群]]></item>
+				<item id="description"><![CDATA[請到 http://wp.qq.com/group.html 配置QQ群一鍵加入代碼並復制到文本框中
+格式︰QQ群名稱|一鍵加入鏈接
+一行一個，不填將不顯示。因排版限制能放多少自己把握]]></item>
+				<item id="variable"><![CDATA[qqq]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[插件咨詢群︰|<a target="_blank" href="http://wp.qq.com/wpa/qunwpa?idkey=090389e4795d6430d6bf0cf969397b96238e643cca24a4539f60b602ec5711b9"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="亮劍插件咨詢" title="亮劍插件咨詢"></a>
+插件售後群︰|<a target="_blank" href="http://wp.qq.com/wpa/qunwpa?idkey=76117bc10d18700ef5c4b89ddcbb6b1802cbb071134d4b6fba6d0db0af51ef02"><img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" alt="亮劍榮譽顧問團" title="亮劍榮譽顧問團"></a>]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[工作時間設置]]></item>
+				<item id="description"><![CDATA[工作時間|8:00-18:00]]></item>
+				<item id="variable"><![CDATA[work]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[工作時間︰|8:00-18:00]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+	</item>
+</root>

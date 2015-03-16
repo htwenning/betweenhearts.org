@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[ljxlwb.plugin]]></item>
+	<item id="RevisionID"><![CDATA[12862]]></item>
+	<item id="SN"><![CDATA[2014033122Ec22gCg946]]></item>
+	<item id="RevisionDateline"><![CDATA[1387188002]]></item>
+	<item id="Data">
+		<item id="/uninstall.php"><![CDATA[07eae0b2630f3618d80508a8463db7f9]]></item>
+		<item id="/ljxlwb.inc.php"><![CDATA[b8c2cb48dabb8841865e5ba966ed78a9]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/config.php"><![CDATA[f612a4b8263df3b028368a7aafecc3b3]]></item>
+		<item id="/lj.class.php"><![CDATA[00404b023602dc401e9302fe34e3570b]]></item>
+		<item id="/install.php"><![CDATA[8f333abe69cd90ccfaf3b14f8ffd61e7]]></item>
+		<item id="/template/ljxlwb1.htm"><![CDATA[86edaf660f04bb1f575c5ca9e376dd2b]]></item>
+		<item id="/template/ljxlwb.htm"><![CDATA[a0ac26344e749a8ae810acc9f1a29c7a]]></item>
+		<item id="/discuz_plugin_ljxlwb_TC_UTF8.xml"><![CDATA[d06f0f6b4dcd9e900f5ec483c45e83a0]]></item>
+		<item id="/upgrade.php"><![CDATA[27f1dd25566fe6bdd3996bd54e4d55d9]]></item>
+		<item id="/discuz_plugin_ljxlwb_SC_UTF8.xml"><![CDATA[d5083a4f474c7b9139a63fd10d7cb7d8]]></item>
+		<item id="/discuz_plugin_ljxlwb_TC_BIG5.xml"><![CDATA[6577125059269f7d93b79134cbab3988]]></item>
+		<item id="/ljxlwb.class.php"><![CDATA[a1090f85e4208eb0be2b7306c9b5e884]]></item>
+		<item id="/img/weibo_bind.png"><![CDATA[6e0cf38cf4104d0a4c87d0cc9670e2be]]></item>
+		<item id="/img/sina_logo_1.png"><![CDATA[aa708e21596d374d953565a35217a48a]]></item>
+		<item id="/img/weibo_login.png"><![CDATA[5dec338db9be1284e45d294e7be55413]]></item>
+		<item id="/img/icon_off.gif"><![CDATA[bc1697b7973c91ef69c2307342a35881]]></item>
+		<item id="/saetv2.ex.class.php"><![CDATA[f1a8267c2deba6fb4e7da3ca8a01d4cb]]></item>
+		<item id="/discuz_plugin_ljxlwb_SC_GBK.xml"><![CDATA[d07e160bb7bee458c2680f7041743aac]]></item>
+	</item>
+</root>

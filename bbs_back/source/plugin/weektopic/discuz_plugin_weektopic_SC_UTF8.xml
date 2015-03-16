@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5,X3,X3.1]]></item>
+	<item id="Time"><![CDATA[2013-11-03 01:56]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://yuxinqi.cn/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[【亮剑】每周话题]]></item>
+			<item id="identifier"><![CDATA[weektopic]]></item>
+			<item id="description"><![CDATA[打造站长最喜欢的每周互动话题插件]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[weektopic/]]></item>
+			<item id="copyright"><![CDATA[亮剑seo论坛(http://www.seoeye.cn)]]></item>
+			<item id="version"><![CDATA[2.0.1]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[app]]></item>
+					<item id="menu"><![CDATA[亮剑应用中心]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[hook]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1]]></item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="bc1"><![CDATA[您无权添加！]]></item>
+				<item id="bc2"><![CDATA[请先登录后再添加！]]></item>
+				<item id="bc3"><![CDATA[请确认资料填写完成后再提交！]]></item>
+				<item id="bc4"><![CDATA[请确认资料填写完成后再提交！]]></item>
+				<item id="bc5"><![CDATA[请确认资料填写完成后再提交！]]></item>
+				<item id="bc6"><![CDATA[添加成功！]]></item>
+				<item id="bc7"><![CDATA[请先登录后！]]></item>
+				<item id="bc8"><![CDATA[不能为空！]]></item>
+				<item id="bc9"><![CDATA[发表成功！]]></item>
+				<item id="bc10"><![CDATA[发表失败,tid必须填写]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="bc1"><![CDATA[我来说两句]]></item>
+				<item id="bc2"><![CDATA[我来说两句：]]></item>
+				<item id="bc3"><![CDATA[文字加粗]]></item>
+				<item id="bc4"><![CDATA[设置文字颜色]]></item>
+				<item id="bc5"><![CDATA[图片]]></item>
+				<item id="bc6"><![CDATA[添加链接]]></item>
+				<item id="bc7"><![CDATA[提交]]></item>
+				<item id="bc8"><![CDATA[本周互动话题：]]></item>
+				<item id="bc9"><![CDATA[这是演示话题哦,为什么地球是圆的？]]></item>
+				<item id="bc10"><![CDATA[大家都在说：]]></item>
+				<item id="bc11"><![CDATA[本周互动话题我也来发言]]></item>
+				<item id="bc12"><![CDATA[管理员同志这是演示数据哦]]></item>
+				<item id="bc13"><![CDATA[分享到：]]></item>
+				<item id="bc14"><![CDATA[添加本周话题]]></item>
+				<item id="bc15"><![CDATA[我来说两句]]></item>
+				<item id="bc16"><![CDATA[添加本周话题]]></item>
+				<item id="bc17"><![CDATA[受空间限制首页每周话题最多只允许显示20个字,<font style="color:red">注意贴子tid必须填写</font><br><b>贴子链接示例1</b> http://www.dzx30.com/forum.php?mod=viewthread&tid=<font style="color:red">210</font>红色的数字即为贴子tid<br><b>贴子链接示例2</b> http://www.dzx30.com/thread-<font style="color:red">310</font>-1-1.html红色的数字即为贴子tid]]></item>
+				<item id="bc18"><![CDATA[ 贴子tid：]]></item>
+				<item id="bc19"><![CDATA[话题标题：]]></item>
+				<item id="bc20"><![CDATA[话题url：]]></item>
+				<item id="bc21"><![CDATA[提交]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+	</item>
+</root>

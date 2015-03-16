@@ -1,0 +1,60 @@
+<!--{block return}-->
+<style>
+#weektopic_list{height:30px;border: 1px solid #CDCDCD;margin-bottom:5px}
+#weektopic_list a{color:#336699}
+#weektopic_list ul{ float:left; margin:0; width:120px;height:30px; overflow:hidden}
+#weektopic_list ul li{ line-height:30px; height:30px; overflow:hidden}
+#weektopic_list #myclick{float:right;line-height:30px;}
+#weektopic_list #topic{float:left;line-height:30px;}
+</style>
+<div id="weektopic_list">
+<span id="topic"><div style="margin-top:7px;float:left;"><img src="source/plugin/weektopic/images/gg.png" ></div>{lang weektopic:bc8}<!--{if $topic}--><a href="{$topic['url']}" style="color:#336699;">{$topic['name']}</a><!--{else}--><a href="#">{lang weektopic:bc9}</a><!--{/if}-->&nbsp;&nbsp;&nbsp;</span>
+<!-- JiaThis Button BEGIN -->
+<div style="float:left;line-height:30px;">{lang weektopic:bc10}</div>
+<ul id="topic_list">
+<!--{if $posts}-->
+<!--{loop $posts $post}-->
+<li><a href="forum.php?mod=redirect&goto=findpost&ptid={$topic['tid']}&pid={$post['pid']}">$post['message']</a></li>
+<!--{/loop}-->
+<!--{else}-->
+<li><a href="#">{lang weektopic:bc11}</a></li>
+<li><a href="#">{lang weektopic:bc12}</a></li>
+<!--{/if}-->
+</ul>
+<div style="margin-top:6px;float:right">
+<div class="jiathis_style"><span class="jiathis_txt">{lang weektopic:bc13}</span>
+<a class="jiathis_button_icons_1"></a>
+<a class="jiathis_button_icons_2"></a>
+<a class="jiathis_button_icons_3"></a>
+<a class="jiathis_button_icons_4"></a>
+<a class="jiathis_button_icons_5"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank"></a>
+<a class="jiathis_counter_style"></a>
+</div>
+</div>
+<script type="text/javascript" >
+var jiathis_config={
+	url:"$topic['url']",
+	summary:"$topic['name']",
+	title:"$topic['name']",
+	hideMore:false
+}
+</script>
+<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+<span id="myclick">
+<!--{if $_G['groupid']==1}--><a href="plugin.php?id=weektopic&action=showwindow" onclick='showWindow("apply",this.href)'><font color="red">{lang weektopic:bc14}</font></a> &nbsp; | &nbsp;<!--{/if}--><a onclick="showWindow('weektopic','plugin.php?id=weektopic&action=reply&tid={$topic['tid']}')" href="javascript:" style="color:#69879B">{lang weektopic:bc15}</a>&nbsp;&nbsp;
+</span>
+</div>
+<script>
+var topic=document.getElementById("topic_list"),can=true;
+topic.innerHTML+=topic.innerHTML;
+topic.onmouseover=function(){can=false};
+topic.onmouseout=function(){can=true};
+new function (){
+var stop=topic.scrollTop%30==0&&!can;
+if(!stop)topic.scrollTop==parseInt(topic.scrollHeight/2)?topic.scrollTop=0:topic.scrollTop++;
+setTimeout(arguments.callee,topic.scrollTop%30?10:1500);
+};
+</script>
+<!--{/block}-->

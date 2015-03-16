@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5,X3]]></item>
+	<item id="Time"><![CDATA[2013-09-02 01:30]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://yuxinqi.cn/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[【亮劍】賭大小游戲]]></item>
+			<item id="identifier"><![CDATA[aljdc]]></item>
+			<item id="description"><![CDATA[插件定制聯系QQ︰578933760]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[aljdc/]]></item>
+			<item id="copyright"><![CDATA[亮劍(http://www.dzx30.com)]]></item>
+			<item id="version"><![CDATA[v2.0.2]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[app]]></item>
+					<item id="menu"><![CDATA[亮劍應用中心]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[aljdc]]></item>
+					<item id="menu"><![CDATA[賭大小游戲]]></item>
+					<item id="url"><![CDATA[plugin.php?id=aljdc]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[賭場選用積分類型]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[credit]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[押大小賠率]]></item>
+				<item id="description"><![CDATA[4-10點為小,11-17點為大，建議賠率1 (1︰1)]]></item>
+				<item id="variable"><![CDATA[drate]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[押豹子賠率]]></item>
+				<item id="description"><![CDATA[3個1 或 3個6，建議賠率100 (1︰100)]]></item>
+				<item id="variable"><![CDATA[brate]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[100]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[下注最低金額]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[min]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[下注最高金額]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[max]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[100]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[每天最多允許游戲次數]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[num]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[公告]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[gs]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[試試你的手氣吧。]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="dc1"><![CDATA[請先登錄！]]></item>
+				<item id="dc2"><![CDATA[大]]></item>
+				<item id="dc3"><![CDATA[小]]></item>
+				<item id="dc4"><![CDATA[豹\子]]></item>
+				<item id="dc5"><![CDATA[每天最多允許\游戲]]></item>
+				<item id="dc6"><![CDATA[次哦]]></item>
+				<item id="dc7"><![CDATA[積分不足！]]></item>
+				<item id="dc8"><![CDATA[下注需要的積分不能小于]]></item>
+				<item id="dc9"><![CDATA[下注需要的積分不能大于]]></item>
+				<item id="dc10"><![CDATA[恭喜，恭喜，你押]]></item>
+				<item id="dc11"><![CDATA[結果就是]]></item>
+				<item id="dc12"><![CDATA[,你贏了]]></item>
+				<item id="dc13"><![CDATA[ 金錢]]></item>
+				<item id="dc14"><![CDATA[哇塞，你人品暴發啊，押中了豹\子，你贏了]]></item>
+				<item id="dc15"><![CDATA[你今日運氣不好，你押]]></item>
+				<item id="dc16"><![CDATA[結果確是]]></item>
+				<item id="dc17"><![CDATA[，你輸了]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="dc1"><![CDATA[游戲大廳]]></item>
+				<item id="dc2"><![CDATA[亮劍賭場游戲]]></item>
+				<item id="dc3"><![CDATA[賭場規則]]></item>
+				<item id="dc4"><![CDATA[賭場，其實是一個簡單的概率問題，由莊家擲三顆骰子，點數分布為3-18點，4-10點為小，11-17點為大，3個1或3個6為豹\子(大小通吃)，以下是各個押法的賠率︰]]></item>
+				<item id="dc5"><![CDATA[亮劍賭場]]></item>
+				<item id="dc6"><![CDATA[您最少下注︰]]></item>
+				<item id="dc7"><![CDATA[最高下注︰]]></item>
+				<item id="dc8"><![CDATA[我要下注︰]]></item>
+				<item id="dc9"><![CDATA[我的記錄]]></item>
+				<item id="dc10"><![CDATA[時間]]></item>
+				<item id="dc11"><![CDATA[我押]]></item>
+				<item id="dc12"><![CDATA[莊家出]]></item>
+				<item id="dc13"><![CDATA[結果]]></item>
+				<item id="dc14"><![CDATA[用戶名︰]]></item>
+				<item id="dc15"><![CDATA[當前積分︰]]></item>
+				<item id="dc16"><![CDATA[當前]]></item>
+				<item id="dc17"><![CDATA[當前戰績︰]]></item>
+				<item id="dc18"><![CDATA[ <p>版權信息
+    </p>
+  <p>亮劍賭場游戲 V1.0
+  </p>
+  <p><a href="http://www.dzx30.com">@亮劍Discuz!</a></p>]]></item>
+				<item id="dc19"><![CDATA[1、押大小，賠率1︰]]></item>
+				<item id="dc20"><![CDATA[2、押豹\子，賠率1︰]]></item>
+				<item id="dc21"><![CDATA[買定離手]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+	</item>
+</root>

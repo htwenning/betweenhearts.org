@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[applylink.plugin]]></item>
+	<item id="RevisionID"><![CDATA[18725]]></item>
+	<item id="SN"><![CDATA[20140331222cVI3TjIJZ]]></item>
+	<item id="RevisionDateline"><![CDATA[1385956801]]></item>
+	<item id="Data">
+		<item id="/uninstall.php"><![CDATA[0ea06fd2c3f2d26e0340fa4340f6e7cb]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/apply.class.php"><![CDATA[e4f14859fb6811b562138f5d96665fef]]></item>
+		<item id="/module/apply_index.php"><![CDATA[f2e7c0e6ab6e0c81b97b86892ca4b96b]]></item>
+		<item id="/module/apply_upload.php"><![CDATA[a36d6e5f982c2eac88e93331e75b858c]]></item>
+		<item id="/module/apply_swfupload.php"><![CDATA[914a35626570d005807e8af54c62cd75]]></item>
+		<item id="/discuz_plugin_applylink_SC_UTF8.xml"><![CDATA[6bfadc2896ffc0d22b2afe7219e6f8be]]></item>
+		<item id="/install.php"><![CDATA[9b0d77b1cf5d4d6828a9a5630159e967]]></item>
+		<item id="/template/m.htm"><![CDATA[d46e537a8ec033bf2474a466fe9d14e1]]></item>
+		<item id="/template/apply.htm"><![CDATA[39acb86de21e25f8c8cf57e0a73ef697]]></item>
+		<item id="/template/upload.htm"><![CDATA[0addb5a44af89db99037c1c01caad1bb]]></item>
+		<item id="/js/upload.js"><![CDATA[92a07bef5b2bac068f266d703a422141]]></item>
+		<item id="/upgrade.php"><![CDATA[9b0d77b1cf5d4d6828a9a5630159e967]]></item>
+		<item id="/discuz_plugin_applylink_TC_BIG5.xml"><![CDATA[3120e881d2180ba6ccead8f30e0583cc]]></item>
+		<item id="/table/table_alj_applylink.php"><![CDATA[160ada3a8b71279ca4545ab452bf7bff]]></item>
+		<item id="/table/table_plugin_lj_attachment.php"><![CDATA[a5e275adc48ddc8c343d9946ac2b69b9]]></item>
+		<item id="/m.inc.php"><![CDATA[1791c5a74706dfc820732ddf5e75aba9]]></item>
+		<item id="/discuz_plugin_applylink_SC_GBK.xml"><![CDATA[fb6e7bd84bc7d2dfdf3d4c65c0fe1106]]></item>
+		<item id="/apply.inc.php"><![CDATA[4406ccfa1d5c67ec45663d111439e917]]></item>
+		<item id="/discuz_plugin_applylink_TC_UTF8.xml"><![CDATA[2407ba24cd810771c430948a45a6b08b]]></item>
+		<item id="/class/forum_upload.php"><![CDATA[d41035034db913c67e2f83c61cc75a54]]></item>
+	</item>
+</root>

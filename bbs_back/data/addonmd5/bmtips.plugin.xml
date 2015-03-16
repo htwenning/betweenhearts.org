@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[bmtips.plugin]]></item>
+	<item id="RevisionID"><![CDATA[17544]]></item>
+	<item id="SN"><![CDATA[2014033122zp6Lnj4TWW]]></item>
+	<item id="RevisionDateline"><![CDATA[1371795684]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_bmtips_TC_UTF8.xml"><![CDATA[1491bda9467ec405558c0405ab926ffa]]></item>
+		<item id="/discuz_plugin_bmtips_TC_BIG5.xml"><![CDATA[09062e170b8d393110db6e7152ef9287]]></item>
+		<item id="/images/editor_rep.gif"><![CDATA[114baa62947d881a219166c3b7789dfa]]></item>
+		<item id="/discuz_plugin_bmtips_SC_GBK.xml"><![CDATA[2ece36001415f526fdc271a74701e1ec]]></item>
+		<item id="/discuz_plugin_bmtips_SC_UTF8.xml"><![CDATA[795861a4a55f7e305c96ab3892e649d8]]></item>
+		<item id="/bmtips.class.php"><![CDATA[d2a16d804a3af3ef02a1d1679790550a]]></item>
+	</item>
+</root>

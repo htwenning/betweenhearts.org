@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^index.html$ index.php
+	RewriteRule ^index-([0-9]+).html$ index.php?start=$1
+	RewriteRule ^showPics.html$ showPics.php
+	RewriteRule ^showPics-([0-9]+).html$ showPics.php?start=$1
+	RewriteRule ^login.html$ login.php
+	RewriteRule ^add_article.html$ add_article.php
+
+</IfModule>
+
+<ifmodule mod_deflate.c>
+	AddOutputFilter DEFLATE html xml php js css
+</ifmodule>
+
+FileETag none

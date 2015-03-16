@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[baidusubmit.plugin]]></item>
+	<item id="RevisionID"><![CDATA[25533]]></item>
+	<item id="SN"><![CDATA[2014033122wBb3C6T3CI]]></item>
+	<item id="RevisionDateline"><![CDATA[1390471202]]></item>
+	<item id="Data">
+		<item id="/uninstall.php"><![CDATA[1ee3cf284c9d72440ce435b03c937cee]]></item>
+		<item id="/discuz_plugin_baidusubmit_SC_GBK.xml"><![CDATA[be8fd07b9125242deeec16105421feb2]]></item>
+		<item id="/config.php"><![CDATA[a5028ff06ca9528a0bff4b3edc22b855]]></item>
+		<item id="/indexall.inc.php"><![CDATA[63df4a403e0ad127b26381ec68961d34]]></item>
+		<item id="/class_schema.php"><![CDATA[b2f0d09b21e2232965238651537374c1]]></item>
+		<item id="/discuz_plugin_baidusubmit_SC_UTF8.xml"><![CDATA[7ae3ce773c324844eabd89ec2ed0ba58]]></item>
+		<item id="/auth.inc.php"><![CDATA[7c3afb533e7ed251289206d1a69721a9]]></item>
+		<item id="/baidusubmit.class.php"><![CDATA[13653a4af0d499f0284a858886421792]]></item>
+		<item id="/indexinc.inc.php"><![CDATA[111a55be06e66853130612fbd26a2dbb]]></item>
+		<item id="/install.php"><![CDATA[d98cf64bcb14f0decf7e406a7a1ab4ad]]></item>
+		<item id="/template/submitlog.htm"><![CDATA[4274916548a45ca0f738dfe30099181a]]></item>
+		<item id="/template/admin.htm"><![CDATA[5071e977a1a4b30f5605bb0a4649de23]]></item>
+		<item id="/template/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/downlog.inc.php"><![CDATA[118374bec1c943836772e7bf76d9eb4d]]></item>
+		<item id="/table/table_baidusubmit_sitemap.php"><![CDATA[a3b8ff2e3213af38784bdfaab6b61e22]]></item>
+		<item id="/table/table_baidusubmit_urlstat.php"><![CDATA[7d7160b4e6399c0d78e920a6622decd4]]></item>
+		<item id="/table/table_forum_thread_baidu.php"><![CDATA[237a04e1a64b73dd80503f1bb9a1a728]]></item>
+		<item id="/table/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/table/table_baidusubmit_setting.php"><![CDATA[8f8e2201d48c687006d9dcdea685a584]]></item>
+		<item id="/sitemapinc.inc.php"><![CDATA[48de8ad3d24b4d8844b7751035f45cd3]]></item>
+		<item id="/admin.inc.php"><![CDATA[9e0cc9a76b342013e03542ab863ecdae]]></item>
+		<item id="/sitemapall.inc.php"><![CDATA[20dd8414de00cb2e913276d5eee5696c]]></item>
+		<item id="/checksign.inc.php"><![CDATA[fc50ce3aa79a926952b1f390859c0272]]></item>
+		<item id="/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/function/function_baidu.php"><![CDATA[39082726b661ae357620b14d69278830]]></item>
+		<item id="/function/index.htm"><![CDATA[d41d8cd98f00b204e9800998ecf8427e]]></item>
+		<item id="/submitlog.inc.php"><![CDATA[cc36af80d3bdeb132ec444a369c0f980]]></item>
+	</item>
+</root>

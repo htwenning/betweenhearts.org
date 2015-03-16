@@ -1,0 +1,67 @@
+{template common/header_ajax}
+<script type="text/javascript" src="source/plugin/applylink/js/upload.js"></script>
+<h3 class="flb">
+	<em>{lang applylink:apply1}</em>
+		<span><a href="javascript:;" class="flbc" onclick="hideWindow('$_GET['handlekey']');" title="{lang close}">{lang close}</a></span>
+	
+</h3>
+<form id="apply" method="post" action="plugin.php?id=applylink:apply&action=apply"  onkeydown="if(event.keyCode==13){showWindow('qwindow', 'qiandao', 'post', '0');return false}" enctype="multipart/form-data">
+<input type="hidden" value="{FORMHASH}" id="formhash" name="formhash">
+<input type="hidden" value="" id="caid" name="caid" fwin="publisheddlg">
+<input type="hidden" tabindex="6" name="poster" value="" title="{lang applylink:apply12}" id="poster" fwin="publisheddlg">
+
+<style>
+		
+.m_c .c {
+    padding: 0 10px 10px;
+}
+</style>
+<div class="notice" style="border:1px dashed #f60;background-color:#FFC">$tips</div>
+		<div class="c">
+        	<table cellspacing="0" cellpadding="0" border="0">
+                
+  				<tbody>
+				<tr>
+    				<td width="70" height="40"><span style="color:red;">*</span>{lang applylink:apply2}</td>
+    				<td colspan="4"><input type="text"  style="width:350px;" class="px" name="name"></td>
+                </tr>
+                <tr>
+    				<td width="70" height="40"><span style="color:red;">*</span>{lang applylink:apply3}</td>
+    				<td colspan="4"><input type="text"  style="width:350px;" class="px" name="url"></td>
+                </tr>
+				  <tr>
+    				<td width="70" height="40"><span style="color:red;">*</span>{lang applylink:apply4}</td>
+    				<td colspan="4"><input type="text"  style="width:350px;" class="px" name="qq"></td>
+                </tr>
+				 <tr>
+    				<td width="70" height="40">{lang applylink:apply5}</td>
+    				<td colspan="4"><div id="uploadbar" class="uploadbar" fwin="publisheddlg"><input type="button" tabindex="6" value="{lang applylink:apply13}" onclick="Showupload();"></div></font></td>
+                </tr>
+                <tr>
+                    <td width="70" height="40">{lang applylink:apply6}</td>
+                    <td colspan="4">
+<div style="width:100%;" class="tedt">
+<div class="bar">
+<div class="fpd">
+<a onclick="seditor_insertunit('reply', '[b]', '[/b]');doane(event);" class="fbld" title="{lang applylink:apply7}" href="javascript:;">B</a>
+<a onclick="showColorBox(this.id, 2, 'reply');doane(event);" id="replyforecolor" class="fclr" title="{lang applylink:apply8}" href="javascript:;" fwin="apply">Color</a>
+<a onclick="seditor_menu('reply', 'img');doane(event);" class="fmg" title="{lang applylink:apply9}" href="javascript:;" id="replyimg" fwin="apply">Image</a>
+<a onclick="seditor_menu('reply', 'url');doane(event);" class="flnk" title="{lang applylink:apply110}" href="javascript:;" id="replyurl" fwin="apply">Link</a>
+</div></div>
+<div style="background:#FFF;" class="area">
+<textarea style="background:#FFF;" id="replymessage" class="pt" name="intro" rows="3" fwin="apply"></textarea>
+</div>
+</div>
+
+</td>
+  				</tr>
+                
+                                
+            </tbody></table>		
+
+</div>
+<p class="o pns">
+	<button type="submit" name="submit" class="pn pnc"><strong>{lang applylink:apply11}</strong></button>
+</p>
+</form>
+{template common/footer_ajax}

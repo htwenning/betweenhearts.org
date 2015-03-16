@@ -1,0 +1,18 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^books.html$ books.php
+	RewriteRule ^books-([0-9]+).html$ books.php?start=$1
+	RewriteRule ^add_book.html$ add_book.php
+	RewriteRule ^index.html$ index.php
+	RewriteRule ^login.html$ login.php
+	RewriteRule ^index-([0-9]+).html$ index.php?start=$1
+	RewriteRule ^about.html$ about.php
+	RewriteRule ^bbs.html$ bbs.php
+	RewriteRule ^bbs/forum.html$ bbs/forum.php
+</IfModule>
+
+<ifmodule mod_deflate.c>
+	AddOutputFilter DEFLATE html xml php js css
+</ifmodule>
+
+FileETag none

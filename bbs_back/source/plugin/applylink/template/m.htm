@@ -1,0 +1,14 @@
+<table class="tb tb2 nobdb">
+<tbody><tr><th class="partition" colspan="15">{lang applylink:m1}</th></tr>
+<tr class="header">
+<th>{lang applylink:m2}</th><th>{lang applylink:m3}</th><th>{lang applylink:m4}</th><th>LOGO</th><th>{lang applylink:m5}</th><th>{lang applylink:m6}</th>
+</tr>
+<!--{loop $linklist $value}-->
+<tr><td>$value['name']</td><td>$value['url']</td><td>$value['qq']</td><td><img width="40px" height="40px" src="{$picpre}{$value['poster']}"></td>
+<td>
+<span onmouseover="showMenu(this.id);" id="intro_{$value[id]}"><a style="background-color: #FFEBEB;border: 1px solid #B50000;" href="javascript:;">{lang applylink:m7}</a></span>
+<div style="border: 1px solid rgb(204, 204, 204); background-color: rgb(242, 242, 242); padding: 10px; text-align: left; position: absolute; z-index: 301; left: 691.5px; top: 403.5px; display: none;" id="intro_{$value[id]}_menu" ><!--{eval echo discuzcode($value['intro']);}--></div>
+</td><td><a href="admin.php?action=plugins&operation=config&do={$_G['lj_do']}&identifier=applylink&pmod=m&act=delete&id={$value[id]}">{lang applylink:m8}</a></td></tr>
+<!--{/loop}-->
+<tr><td colspan="5" align="right">$paging</td></tr>
+</tbody></table>

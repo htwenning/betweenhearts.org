@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[aljrq.plugin]]></item>
+	<item id="RevisionID"><![CDATA[20753]]></item>
+	<item id="SN"><![CDATA[2014033122DEdroezN22]]></item>
+	<item id="RevisionDateline"><![CDATA[1388736001]]></item>
+	<item id="Data">
+		<item id="/discuz_plugin_aljrq_SC_UTF8.xml"><![CDATA[601d56e4b2a89c8ad7dfab187876aad3]]></item>
+		<item id="/function_aljrq.php"><![CDATA[ecd872c15922096e8d0f3f42335e37f9]]></item>
+		<item id="/discuz_plugin_aljrq_TC_UTF8.xml"><![CDATA[8d5eaff5269ed7fbfbf79a588c3301ca]]></item>
+		<item id="/uninstall.php"><![CDATA[b8298cc9e68466d1d58a1be7b6a3b058]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/huitie.class.php"><![CDATA[e9c264680b4e8c9d250c6b7831504a39]]></item>
+		<item id="/discuz_plugin_aljrq_SC_GBK.xml"><![CDATA[de42748e23ef7799fd0aeb6f8f42ac55]]></item>
+		<item id="/sj.class.php"><![CDATA[0fb7fe5412e71bb854576ddcdb7a0105]]></item>
+		<item id="/discuz_plugin_aljrq_TC_BIG5.xml"><![CDATA[2985ca2ecf65d11f181658ef4f8ca73d]]></item>
+	</item>
+</root>

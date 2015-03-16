@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5,X3,X3.1]]></item>
+	<item id="Time"><![CDATA[2014-01-22 15:35]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/meng/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[¡i«G¼C¡j¬¡°Ê»EµJ]]></item>
+			<item id="identifier"><![CDATA[aljhd]]></item>
+			<item id="description"><![CDATA[´¡¥ó©w¨îÁp¨t«ÈªAQQ¡J578933760]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[aljhd/]]></item>
+			<item id="copyright"><![CDATA[«G¼C(http://www.dzx30.com)]]></item>
+			<item id="version"><![CDATA[v2.1]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[app]]></item>
+					<item id="menu"><![CDATA[«G¼CÀ³¥Î¤¤¤ß]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[aljhd]]></item>
+					<item id="menu"><![CDATA[¬¡°Ê»EµJ]]></item>
+					<item id="url"><![CDATA[plugin.php?id=aljhd]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2.5,X3,X3.1]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[¬¡°Ê¤ÀÃþ]]></item>
+				<item id="description"><![CDATA[ID|¤ÀÃþ¦WºÙ  ¤@¦æ¤@­Ó(ª`·N¤ÀÃþ¦WºÙ¤£¯à§Û¹L8­Ó¦r¡A§_«h¬É­±®i¥Ü®É·|¿ù¦æ)]]></item>
+				<item id="variable"><![CDATA[type]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1|©Ð²£ÀW¹D¬ÛÃö¬¡°Ê
+2|¨T¨®ÀW¹D¬ÛÃö¬¡°Ê
+3|¹q¼vÀW¹D¬ÛÃö¬¡°Ê
+4|¬ü­¹ÀW¹D¬ÛÃö¬¡°Ê
+5|¤½¯q¬¡°Ê
+6|®a¸ËÀW¹D¬ÛÃö¬¡°Ê]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[seo-¼ÐÃD]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[title]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[«G¼C¬¡°Ê»EµJ]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[seo-ÃöÁä¦r]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[keywords]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[«G¼C¬¡°Ê»EµJ]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[seo-´y­z]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[description]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[³Ì±M·~ªº¬¡°Ê»E¦X´¡¥ó]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[¦Û©w¸q¤À­¶(¨C­¶¦h¤Ö±ø°O¿ý)]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[page]]></item>
+				<item id="type"><![CDATA[number]]></item>
+				<item id="value"><![CDATA[5]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[5]]></item>
+				<item id="title"><![CDATA[¤¹³\²K¥[¬¡°Ê¥Î¤á²Õ]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[yhz]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[15]]></item>
+					<item id="1"><![CDATA[1]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="hd1"><![CDATA[²K¥[¦¨¥\\¡I]]></item>
+				<item id="hd2"><![CDATA[½s¿è¦¨¥\\¡I]]></item>
+				<item id="hd3"><![CDATA[§R°£¦¨¥\\¡I]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="hd1"><![CDATA[²K¥[¬¡°Ê]]></item>
+				<item id="hd2"><![CDATA[½s¿è¬¡°Ê]]></item>
+				<item id="hd3"><![CDATA[¬¡°Ê¼ÐÃD]]></item>
+				<item id="hd4"><![CDATA[¬¡°ÊÃþ«¬]]></item>
+				<item id="hd5"><![CDATA[¬¡°ÊÃì±µ]]></item>
+				<item id="hd6"><![CDATA[¬¡°Ê®É¶¡]]></item>
+				<item id="hd7"><![CDATA[¬¡°Ê¹Ï¤ù]]></item>
+				<item id="hd8"><![CDATA[¬¡°Ê¦aÂI]]></item>
+				<item id="hd9"><![CDATA[¬¡°ÊÂ²¤¶]]></item>
+				<item id="hd10"><![CDATA[´£¥æ]]></item>
+				<item id="hd11"><![CDATA[¤ÀÃþ]]></item>
+				<item id="hd12"><![CDATA[¥þ³¡¤ÀÃþ]]></item>
+				<item id="hd13"><![CDATA[®É¶¡]]></item>
+				<item id="hd14"><![CDATA[¥þ³¡®É¶¡]]></item>
+				<item id="hd15"><![CDATA[Åã¥Ü]]></item>
+				<item id="hd16"><![CDATA[¥þ³¡¬¡°Ê]]></item>
+				<item id="hd17"><![CDATA[¬¡°Ê¶i¦æ¤¤]]></item>
+				<item id="hd18"><![CDATA[ ©¹´Á¬¡°Ê]]></item>
+				<item id="hd19"><![CDATA[·í«eÀË¯Á±ø¥ó¡J]]></item>
+				<item id="hd20"><![CDATA[¬¡°Ê¶i¦æ¤¤]]></item>
+				<item id="hd21"><![CDATA[©¹´Á¬¡°Ê]]></item>
+				<item id="hd22"><![CDATA[¥þ³¡¬¡°Ê]]></item>
+				<item id="hd23"><![CDATA[²MªÅÀË¯Á±ø¥ó]]></item>
+				<item id="hd24"><![CDATA[²K¥[¬¡°Ê]]></item>
+				<item id="hd25"><![CDATA[®É¶¡¡J]]></item>
+				<item id="hd26"><![CDATA[½s¿è]]></item>
+				<item id="hd27"><![CDATA[¬¡°Ê¸Ô±¡¡J]]></item>
+				<item id="hd28"><![CDATA[¶ZÂ÷¬¡°Êµ²§ôÁÙ¦³]]></item>
+				<item id="hd29"><![CDATA[¤Ñ]]></item>
+				<item id="hd30"><![CDATA[°Ñ¥[¬¡°Ê]]></item>
+				<item id="hd31"><![CDATA[¨ì]]></item>
+				<item id="hd32"><![CDATA[§R°£]]></item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+	</item>
+</root>

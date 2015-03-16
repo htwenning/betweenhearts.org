@@ -1,0 +1,117 @@
+<!--{block return}-->
+<link rel=stylesheet type="text/css" href="source/plugin/ljqq/css/css.css">
+<div id="xixi" onmouseover="toBig()" onmouseout="toSmall()" style="top: 100px; left: -152px; position: absolute; ">
+<table style="FLOAT: left" border="0" cellspacing="0" cellpadding="0" width="157">
+  <tbody>
+  <tr>
+    <td class="main_head" height="39" valign="top">&nbsp;</td></tr>
+  <tr>
+    <td class="info1" valign="top">
+      <table class="qqtable" border="0" cellspacing="0" cellpadding="0" width="120" align="center">
+        <tbody>
+		<tr>
+          <td align="middle"> &nbsp;</td>
+        </tr>
+		<!--{if $config['logo']}-->
+        <tr>
+          <td align="middle"><a href="$_G['siteurl']" target="_blank"><img border="0" src="$config['logo']"></a> </td>
+        </tr>
+		<!--{/if}-->
+        <tr>
+          <td height="5"></td></tr>
+        
+		<!--{loop $qqgroup $k=>$v}-->
+		<tr>
+          <td height="30" align="middle"><span>$v</span></td>
+		  </tr>
+		  <!--{/loop}-->
+        <tr>
+          <td height="5"></td></tr>
+		  <!--{loop $wwgroup $k=>$v}-->
+		  <tr>
+          <td height="30" align="middle"><span>$v</span></td></tr>
+       <!--{/loop}-->
+       <tr>
+          <td height="5"></td></tr>
+		 
+		<!--{loop $newgroup $k=>$v}-->
+        <tr>
+          <td align="middle">
+            <div class="qun"><font color="#FF6600">$v['0']</font><br><span>$v['1']</span></div></td></tr>
+		<tr>
+          <td height="5"><img border="0" src="source/plugin/ljqq/images/img3-5_3.png"></td></tr>
+		 <tr>
+          <!--{/loop}-->
+		 <tr>
+          <td align="middle">
+            <div class="qun"><font color="#FF6600">$work['0']</font><br><span>$work['1']</span></div></td></tr>
+         <tr> <td align="middle">&nbsp;</td></tr></tbody></table></td></tr>
+  <tr>
+    <td class="down_kefu" valign="top"></td></tr></tbody></table>
+<div class="Obtn"></div></div>
+<script type="text/javascript">
+		function aaa(id,_top,_left){
+		var me=id.charAt?document.getElementById(id):id, d1=document.body, d2=document.documentElement;
+		d1.style.height=d2.style.height='100%';me.style.top=_top?_top+'px':0;me.style.left=_left+"px";//[(_left>0?'left':'left')]=_left?Math.abs(_left)+'px':0;
+		me.style.position='absolute';
+		setInterval(function (){me.style.top=parseInt(me.style.top)+(Math.max(d1.scrollTop,d2.scrollTop)+_top-parseInt(me.style.top))*0.1+'px';},10+parseInt(Math.random()*20));
+		return arguments.callee;
+		}
+
+
+		
+		aaa('xixi',100,-152);
+	</SCRIPT>
+
+<script type="text/javascript">
+			lastScrollY=0; 
+			
+			var InterTime = 1;
+			var maxWidth=-1;
+			var minWidth=-152;
+			var numInter = 8;
+			
+			var BigInter ;
+			var SmallInter ;
+			
+			var o =  document.getElementById("xixi");
+				var i = parseInt(o.style.left);
+				function Big()
+				{
+					if(parseInt(o.style.left)<maxWidth)
+					{
+						i = parseInt(o.style.left);
+						i += numInter;	
+						o.style.left=i+"px";	
+						if(i==maxWidth)
+							clearInterval(BigInter);
+					}
+				}
+				function toBig()
+				{
+					clearInterval(SmallInter);
+					clearInterval(BigInter);
+						BigInter = setInterval(Big,InterTime);
+				}
+				function Small()
+				{
+					if(parseInt(o.style.left)>minWidth)
+					{
+						i = parseInt(o.style.left);
+						i -= numInter;
+						o.style.left=i+"px";
+						
+						if(i==minWidth)
+							clearInterval(SmallInter);
+					}
+				}
+				function toSmall()
+				{
+					clearInterval(SmallInter);
+					clearInterval(BigInter);
+					SmallInter = setInterval(Small,InterTime);
+					
+				}
+				
+</SCRIPT>
+<!--{/block}-->

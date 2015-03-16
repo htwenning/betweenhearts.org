@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[aljhd.plugin]]></item>
+	<item id="RevisionID"><![CDATA[24551]]></item>
+	<item id="SN"><![CDATA[20140331220CHapUcK5Z]]></item>
+	<item id="RevisionDateline"><![CDATA[1390543201]]></item>
+	<item id="Data">
+		<item id="/aljhd.inc.php"><![CDATA[a9e497a78094a65b1e291cbb36d9242f]]></item>
+		<item id="/discuz_plugin_aljhd_SC_UTF8.xml"><![CDATA[6a8bc4d3431992b83ae674ea09eddf0a]]></item>
+		<item id="/uninstall.php"><![CDATA[ba1945a6e3922c4419425d016bd1b420]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/images/shutdown_search.gif"><![CDATA[0f96c4e18e5dcba67d0a2938f43130e1]]></item>
+		<item id="/images/hd_09.jpg"><![CDATA[043ea484c19923eb6a2eba4f570cf3d7]]></item>
+		<item id="/images/logo/20131013174024363.jpg"><![CDATA[257e3f07bd54da98a3d00f94e5056c18]]></item>
+		<item id="/images/logo/20131013174258603.png"><![CDATA[2896db18829b8744049d0fe048c66d03]]></item>
+		<item id="/images/logo/20140122150650944.jpg"><![CDATA[5e6c67911453e1dcd81595c5596b2de0]]></item>
+		<item id="/images/logo/20131010235447978.jpg"><![CDATA[8725774628689ac497055d8281d8feeb]]></item>
+		<item id="/images/logo/20131013174328825.jpg"><![CDATA[257e3f07bd54da98a3d00f94e5056c18]]></item>
+		<item id="/images/logo/20131003235522868.jpg"><![CDATA[73b5c612df97874d2b5799ff536c7e71]]></item>
+		<item id="/images/logo/20131003235809730.jpg"><![CDATA[33a492a014c41d3dc1bc23810933234f]]></item>
+		<item id="/images/logo/20131013174355791.jpg"><![CDATA[257e3f07bd54da98a3d00f94e5056c18]]></item>
+		<item id="/images/logo/20131003235541931.jpg"><![CDATA[7baf80aef2305a449e2f7f1f8e61ed9d]]></item>
+		<item id="/images/logo/20131006234928153.jpg"><![CDATA[8725774628689ac497055d8281d8feeb]]></item>
+		<item id="/images/logo/20131013173851414.jpg"><![CDATA[a9e1b143bf3e81014acb05d1536fcfb5]]></item>
+		<item id="/images/logo/20131013174713427.jpg"><![CDATA[257e3f07bd54da98a3d00f94e5056c18]]></item>
+		<item id="/images/logo/20131225102323286.jpg"><![CDATA[8725774628689ac497055d8281d8feeb]]></item>
+		<item id="/images/logo/20131013174344101.jpg"><![CDATA[257e3f07bd54da98a3d00f94e5056c18]]></item>
+		<item id="/images/logo/20131003235908772.jpg"><![CDATA[5404375d43e767d206ed21f22be4fcaf]]></item>
+		<item id="/images/logo/20131003235318911.png"><![CDATA[f18fbbf20e00fc294ab9a145d953750f]]></item>
+		<item id="/images/hd_14.jpg"><![CDATA[355a27e699a669bef4e9da4e4ced8608]]></item>
+		<item id="/images/jg.jpg"><![CDATA[80f4353f6180f213118cf195538966cf]]></item>
+		<item id="/images/jb_lt.png"><![CDATA[34905f38e49a2650283f78e2d0a403e2]]></item>
+		<item id="/images/jb_lte.png"><![CDATA[8221991d548ed8e64fc1938e7b076481]]></item>
+		<item id="/images/r.jpg"><![CDATA[777f12fe052de1b05d3279628a6684fa]]></item>
+		<item id="/images/l.jpg"><![CDATA[732f979ed2da7d7c7a31c5ecfabfac92]]></item>
+		<item id="/discuz_plugin_aljhd_TC_BIG5.xml"><![CDATA[d4d885f1a14e1e8558c7f9a5fd00cb31]]></item>
+		<item id="/discuz_plugin_aljhd_SC_GBK.xml"><![CDATA[4225c9411c901f572593315ab4909a97]]></item>
+		<item id="/install.php"><![CDATA[9d533725c5fae17d179dd008857b721e]]></item>
+		<item id="/template/edit.htm"><![CDATA[645190ac7ac03ba444fee28491e68f59]]></item>
+		<item id="/template/add.htm"><![CDATA[5b9be6238288a4af9f2f359c87318210]]></item>
+		<item id="/template/index.htm"><![CDATA[322493ed85e1b2395e308a63bdec6836]]></item>
+		<item id="/table/table_alj_hd.php"><![CDATA[0a5566707a2c1f1e767bae98df07d669]]></item>
+		<item id="/discuz_plugin_aljhd_TC_UTF8.xml"><![CDATA[fb03c1c8ca9f9728334a5dd4747f6a53]]></item>
+		<item id="/css/style.css"><![CDATA[de4c6f8fcb4aa1a1f200309dc2061ffc]]></item>
+	</item>
+</root>

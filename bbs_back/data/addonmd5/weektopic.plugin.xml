@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Addon MD5]]></item>
+	<item id="ID"><![CDATA[weektopic.plugin]]></item>
+	<item id="RevisionID"><![CDATA[21222]]></item>
+	<item id="SN"><![CDATA[2014033122gLjv0NxgNj]]></item>
+	<item id="RevisionDateline"><![CDATA[1392897602]]></item>
+	<item id="Data">
+		<item id="/uninstall.php"><![CDATA[bbe3d86b8efd7e2b406bd956663e57cc]]></item>
+		<item id="/app.inc.php"><![CDATA[8e48fd7c3f89e7febebf307f9cb34f29]]></item>
+		<item id="/discuz_plugin_weektopic_SC_UTF8.xml"><![CDATA[9509fa08827fc3a5ef7f37079647cd57]]></item>
+		<item id="/images/gg.png"><![CDATA[ea9f4346a42a298bf0d9165bc5d98655]]></item>
+		<item id="/module/weektopic_index.php"><![CDATA[e3c39624c589132f379f57ab41bfd0e1]]></item>
+		<item id="/install.php"><![CDATA[aa58008553f822759f252e180500f456]]></item>
+		<item id="/template/add.htm"><![CDATA[da02a67c668b9ea48500ae7e7523af59]]></item>
+		<item id="/template/reply.htm"><![CDATA[617cbcb4df09f1bca51f01f670af3859]]></item>
+		<item id="/template/index.htm"><![CDATA[b6efb3d82602a8dd672936be37fbaaa4]]></item>
+		<item id="/discuz_plugin_weektopic_TC_UTF8.xml"><![CDATA[1d1979cf3649e488723b681edf84fb2f]]></item>
+		<item id="/discuz_plugin_weektopic_TC_BIG5.xml"><![CDATA[afd9c26b138b803f7267109d9719cd79]]></item>
+		<item id="/weektopic.inc.php"><![CDATA[15e14a1f19d9af82d22713668f617a0a]]></item>
+		<item id="/hook.class.php"><![CDATA[ac31471667da660c9aace76c192a484d]]></item>
+		<item id="/table/table_alj_weektopic_thread.php"><![CDATA[4ee5545aaf0bd5f02369e5ea3b3db39b]]></item>
+		<item id="/discuz_plugin_weektopic_SC_GBK.xml"><![CDATA[cf91b92e75c77455f4b7bfa7ff6eb3b3]]></item>
+		<item id="/function/function_core.php"><![CDATA[f5e91309760093e2e04338e751bf647d]]></item>
+	</item>
+</root>
